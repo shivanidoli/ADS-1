@@ -6,43 +6,29 @@ class Solution
 public static void main(String[] args)
 {
 	int []a;
-	int n;
-   // System.out.println("enter array size");
+	int n,i,j,k;
     Scanner sc= new Scanner(System.in);
     n=sc.nextInt();
     a=new int[n];
-   // System.out.println("enter array elements");
-    for(int i=0;i<a.length;i++)
-   {
-       a[i]=sc.nextInt();
-   }
-   Arrays.sort(a);
-   /*for(int i=0;i<a.length;i++)
-   {
-    System.out.print(a[i]);
-   }*/
-   for(int i=0;i<a.length;i++)
-   {
-     int j=i+1;  
-     int k=a.length-1;
-     while(j<k)
+    for(i=0;i<a.length;i++)
      {
-      if((a[i]+a[j]+a[k])==0)
-      {
-       System.out.println("true");
-        return;
-       }
-      else if((a[i]+a[j]+a[k])<0)
-       {
-        j++;
-       }
-      else if((a[i]+a[j]+a[k])>0)
-      {
-       k--;
-      }
-     sc.close();
-    }
-   }
+       a[i]=sc.nextInt();
+     }
+   Arrays.sort(a);
+   for(i=0;i<a.length-2;i++) 
+   {
+	for(j=i+1;j<a.length-1;j++)
+	{
+		for(k=j+1;k<a.length;k++)
+		{
+			if((a[i]+a[j]+a[k])==0)
+			{
+		         System.out.println("true");
+		       	 return;
+			}
+		}
+	}
+   }   
   System.out.println("false");
   }
  }
