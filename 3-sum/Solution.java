@@ -16,7 +16,7 @@ int count=0;
      {
        a[i]=Integer.parseInt(br.readLine());
      }
-   Arrays.sort(a);
+   //Arrays.sort(a);
    for(i=0;i<a.length-2;i++) 
    {
 	for(j=i+1;j<a.length-1;j++)
