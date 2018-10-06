@@ -1,18 +1,20 @@
 import java.util.Arrays;
 import java.util.Scanner;
-
+import java.io.*;
 class Solution
 {
-public static void main(String[] args)
+public static void main(String[] args)throws Exception
 {
 	int []a;
 	int n,i,j,k;
-    Scanner sc= new Scanner(System.in);
-    n=sc.nextInt();
+int count=0;
+    //Scanner sc= new Scanner(System.in);
+     BufferedReader br =new BufferedReader(new InputStreamReader(System.in));
+    n=Integer.parseInt(br.readLine());
     a=new int[n];
     for(i=0;i<a.length;i++)
      {
-       a[i]=sc.nextInt();
+       a[i]=Integer.parseInt(br.readLine());
      }
    Arrays.sort(a);
    for(i=0;i<a.length-2;i++) 
@@ -23,12 +25,11 @@ public static void main(String[] args)
 		{
 			if((a[i]+a[j]+a[k])==0)
 			{
-		         System.out.println("true");
-		       	 return;
+		         count++;
 			}
 		}
 	}
    }   
-  System.out.println("false");
+  System.out.println(count);
   }
  }
