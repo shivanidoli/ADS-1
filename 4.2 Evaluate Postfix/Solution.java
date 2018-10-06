@@ -102,7 +102,7 @@ class Sort
 	{
 		Node temp=head;
 		head=head.next;
-		System.out.println(temp.data);
-		return 0;
+		//System.out.println(temp.data);
+		return temp.data;
 	}
 }
