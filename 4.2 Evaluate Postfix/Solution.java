@@ -7,7 +7,7 @@ public class Solution
 		String s;
                 s=sc.nextLine();
 		Stack st=new Stack();
-                st.postfix(s);
+                System.out.println(st.postfix(s));
 	}
 
 }
