@@ -6,27 +6,27 @@ class Factorial
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int num = sc.nextInt();
-		int fact =1;
-		factorial(num,fact);
+		int fact =factorial(num);
+                System.out.println(fact);
+
   }
 
-	public static int factorial(int num, int fact)
+	public static int factorial(int num)
 	{
-                System.out.println(fact);
-		if(num == 0)
+               		if(num==1)
 		{
-			return fact;
+			return 1;
 		}
-		else
-		{
-			fact=fact*num;
-			num=num-1;
-			factorial(num,fact);
-		}
-		return fact;
+		return num*factorial(num-1);
 	}
 
 }
+
+
+
+
+
+
 
 
 
