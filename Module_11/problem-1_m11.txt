@@ -1,0 +1,47 @@
+QUICK SORTING
+
+E A S Y Q U E S T I O |N  i=-1 j=0
+
+E A S Y Q U E S T I O |N  i=0  j=1
+
+E A S Y Q U E S T I O |N  i=1  j=2
+
+E A S Y Q U E S T I O |N  i=1  j=3
+
+E A S Y Q U E S T I O |N  i=1  j=4
+
+E A S Y Q U E S T I O |N  i=1  j=5
+
+E A E Y Q U S S T I O |N  i=2  j=6  SWAP
+
+E A E Y Q U S S T I O |N  i=2  j=7
+
+E A E Y Q U S S T I O |N  i=2  j=8
+
+E A E I Q U S S T Y O |N  i=3  j=9  SWAP
+
+E A E I Q U S S T Y O |N  i=3  j=10
+
+(E A E I )N (Q U S S T Y O)
+
+E A E |I     Q U S S T Y |O
+
+E A |E       O |Q U S S T Y 
+
+A E E        Q U S S T |Y 
+           
+             Q U S S |T  SWAP
+            
+             Q S S U |T   SWAP
+ 
+             Q S S T U
+ 
+             Q S |S
+
+             Q S S
+
+
+ANSWER:-
+
+A E E I N O Q S S T U Y 
+ 
