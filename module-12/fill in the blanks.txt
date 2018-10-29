@@ -1,0 +1,38 @@
+Fill in the blanks-1
+
+1.1
+2.k/2
+3.k
+4.k
+5.k/2
+6.k/2
+
+
+Fill in the blanks-2
+
+1.n
+2.2*k
+3.n
+4.j
+5.j+1
+6.j++
+7.k
+8.j
+9.k
+10.j
+11.j
+
+Fill in the blanks-3
+
+Suppose if we built a minPQ with following keys, then answer the following questions
+I A M S T E V E R O G E R S
+
+write the output of the minPQ array
+A E E I G E S S R T O M R V
+
+What are the child nodes for node ‘A’?
+E  E
+
+What is the root node after deleteMin() called 5 times?
+
+ I
