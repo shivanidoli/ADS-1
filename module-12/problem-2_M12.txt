@@ -1,0 +1,1 @@
+Yes , because as the array is sorted and placed in asceding order(low to high) then the first element is smaller than the reamining elements. If the root node is smaller than other elements then it is a min-heap.
