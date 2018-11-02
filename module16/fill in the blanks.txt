@@ -1,0 +1,119 @@
+Fill in the blanks-1
+
+1) Fill the following blanks in the get method of BST
+
+private Value get(Node x, Key key) { 
+
+if (x == null) return ___________;     // Blank 1 
+
+int cmp = key.compareTo(_____________);   // Blank 2
+
+if (cmp < 0) 
+
+return get(________, key);      // Blank 3
+
+else if (cmp > 0) 
+
+return get(___________, key);    // Blank 4
+
+else return x.val; 
+
+}
+
+Blank1:-null
+
+
+
+Blank2:-x.key
+
+
+
+Blank3:-x.left
+
+
+
+Blank4:-x.right
+
+
+
+Fill in the blanks-2
+
+ Fill the following blanks in the put method of BST
+
+private Node put(Node x, Key key, Value val) { 
+
+if (x == ______________)          // Blank 1
+
+return new Node(key, val); 
+
+int cmp = key.compareTo(___________);    // Blank 2
+
+if (cmp < 0) 
+
+x.left = put(_____________, key, val);    // Blank 3
+
+else if (cmp > 0) 
+
+x.right = put(_____________, key, val);   // Blank 4
+
+else 
+
+x.val = val; 
+
+return x; 
+
+}
+
+
+Blank1:-null
+
+
+
+Blank2:-x.key
+
+
+
+Blank3:-x.left
+
+
+
+Blank4:-x.right
+
+
+
+Fill in the blanks-3
+
+ Note: A BST is a binary tree where nodes are ordered in the following way:
+
+each node contains one key (also known as data)
+
+The keys in the left subtree are less than the key in its parent node, in short L < P;
+
+The keys in the right subtree are greater the key in its parent node, in short P < R;
+
+Duplicate keys are not allowed.
+
+
+
+Following the above criteria, draw a BST for the following keys (you receive keys from
+
+left to right) and answer the below questions.
+
+11, 6, 8, 19, 4, 17, 43, 49, 31
+
+What will be the child nodes for element 6 ?
+
+4,8
+
+How many leaf nodes in the resultant tree ?
+
+31,49 
+
+How many compares (key compares) does it take to insert the last element(31) in to the tree?
+
+4
+
+How many compares (key compares) does it take when we call get(8) method ?
+
+3
+
