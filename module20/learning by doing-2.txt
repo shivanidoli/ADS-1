@@ -1,0 +1,11 @@
+  
+ 		               INSERTION             		 DELETION           		     SEARCHING
+ 		  BEST  	WORST 	    AVERAGE       BEST	 WORST 		AVG         BEST	 WORST	   AVG
+
+linear search     O(N)          O(N)         O(N)          O(N)     O(N)        O(N)          O(N)       O(N)        O(N)
+ 
+binary search     O(LOG(N))     O(N)        O(LOG(N))    O(LOG(N))  O(N)        O(LOG(N))    O(LOG(N))  O(N)       O(LOG(N))
+
+bst               O(LOG(N))     O(LOG(N))    O(LOG(N))   O(LOG(N))  O(LOG(N))    O(LOG(N))    O(LOG(N))  O(LOG(N))  O(LOG(N))
+
+2-3 tree          C(LOG(N))     C(LOG(N))    C(LOG(N))   C(LOG(N))  C(LOG(N))    C(LOG(N))    C(LOG(N))  C(LOG(N))  C(LOG(N))
