@@ -310,9 +310,9 @@ public class Solution
 		}
 		break;
 	case "max":
-		System.out.println(fcr.max().name+","+fcr.max().Author+","+fcr.max().price);
+		System.out.println(fcr.max().name+", "+fcr.max().Author+", "+fcr.max().price);
 		break;
-	case "min":System.out.println(fcr.min().name+","+fcr.min().Author+","+fcr.min().price);
+	case "min":System.out.println(fcr.min().name+", "+fcr.min().Author+", "+fcr.min().price);
 		break;
 	case "rank":
 		break;
@@ -339,7 +339,7 @@ public class Solution
 	case "select":
 		//System.out.println(a[1]);
 		Book b3=fcr.select(Integer.parseInt(a[1]));
-		System.out.println(b3.name+","+b3.Author+","+b3.price);
+		System.out.println(b3.name+", "+b3.Author+", "+b3.price);
 		//System.out.println(fcr.select(Integer.parseInt(a[1])).name+", "+fcr.select(Integer.parseInt(a[1])).Author+", "+fcr.select(Integer.parseInt(a[1])).price);
 		break;
 	}
